@@ -43,9 +43,9 @@ const Servicessection = () => {
 Access <br/>to <span className='text-[#FBB03B]'>services</span></h2>
         <p class="text-[#646464] text-[13px] leading-[30px] text-start mt-3 tracking-normal">Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.</p>
         <p class="text-[#646464] text-[13px] leading-[30px] text-start mt-3 tracking-normal">Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.</p>
-        <div className="flex items-center mt-4">
-      <img src={layer} className="text-white mr-2 w-6 h-6 sm:w-8 sm:h-8" alt="Image" />
-      <span className="text-start text-[#2029BC] text-[14px] sm:text-[16px]">See All &gt;</span>
+        <div className="flex items-center mt-4 text-[black] hover:text-[#FBB03B]">
+      <img src={layer} className="text-white mr-2 w-2 h-2 sm:w-8 sm:h-8" alt="Image" />
+      <span className="text-start  text-[14px] sm:text-[14px]">View All &gt;</span>
     </div>
       </div>
 
