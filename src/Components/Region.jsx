@@ -10,7 +10,7 @@ const Region = () => {
       <div class="max-w-7xl max-md:max-w-xl mx-auto  mb-8 mt-8">
         <div class="grid xl:grid-cols-2 md:grid-cols-2 gap-12 ">
           <div class="">
-            <img src={korea} className=" h-[320px]" />
+            <img src={korea} className=" lg:h-[320px] xs:h-[250px] sm:h-[300px] mx-auto" />
             <img
               src={turkey}
               className=" lg:h-[300px]  lg:relative left-52 -top-32 sm:static "
@@ -18,21 +18,21 @@ const Region = () => {
           </div>
 
           <div class="w-full xl:col-span-1 max-md:px-6">
-            <div>
+            <div >
               <h2 class="  sm:w-auto lg:text-start text-center text-[#1F2933] underline font-semibold text-[24px] leading-[40px]  tracking-normal opacity-100">
                 Find Your <span className="text-[#FBB03B]">Region</span>
               </h2>
-              <p class="text-[#646464] text-[13px] leading-[30px] text-start mt-3 tracking-normal underline">
+              <p class="text-[#646464] text-[13px] leading-[30px] text-justify lg:text-start mt-3 tracking-normal underline">
                 Discover Regions Where We Operate
               </p>
-              <p class="text-[#646464] text-[13px] leading-[30px] text-start mt-3 tracking-normal underline">
+              <p class="text-[#646464] text-[13px] leading-[30px] text-justify lg:text-start mt-3 tracking-normal underline">
                 Explore the diverse regions where we provide our services and
                 expertise. From local to global, find the region that suits your
                 needs and discover how we can assist you in navigating
                 regulatory compliance seamlessly.
               </p>
 
-              <p class="text-[#646464B3] text-[13px] leading-[30px] text-start mt-3 tracking-normal underline">
+              <p class="text-[#646464B3] text-[13px] leading-[30px] text-justify lg:text-start mt-3 tracking-normal underline">
                 Explore the diverse regions where we provide our services and
                 expertise. From local to global, find the region that suits your
                 needs and discover how we can assist you in navigating

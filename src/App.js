@@ -6,6 +6,7 @@ import Region from './Components/Region';
 import Footer from './Components/Footer';
 import Social from './Components/Social';
 import Aboutus from './Components/Aboutus';
+import Secondsection from './Components/Secondsection';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Herosection/>
       <Social/>
+      <Secondsection/>
       <Servicessection/>
       <Region/>
       <Aboutus/>

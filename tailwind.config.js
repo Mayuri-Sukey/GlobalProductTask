@@ -3,6 +3,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'], // Ensure the paths cover all your files
   theme: {
     extend: {
+
+      screens: {
+        'xs': '320px', // Custom breakpoint for 320px
+      },
     
       fontFamily: {
         space: ['Space', 'sans-serif'],

@@ -8,8 +8,8 @@ import orange from "../assets/orange.png";
 const Servicessection = () => {
   return (
     <>
-       <div className='text-[#FFFFFF]'>
-        <div class="text-center max-w-xl mx-auto">
+       <div className='text-[#FFFFFF] lg:pt-14 pt-4'>
+        <div class="text-center max-w-2xl mx-auto">
         <h2
   className="text-gray-800 text-center px-9"
   style={{
@@ -20,11 +20,12 @@ const Servicessection = () => {
     lineHeight: "40px",
     letterSpacing: "0px",
     color: "black",
-    opacity: "1"
+    opacity: "1",
+    
   }}
 >Tailored <span className='text-[#FBB03B] underline decoration-[#FBB03B]'>Solutions</span> for Compliance <span className='text-[#FBB03B] underline decoration-[#FBB03B]'>Success</span></h2>
         <p
-  className=" mt-6 text-center text-[#646464] opacity-100 px-10"
+  className=" mt-6 text-justify lg:text-center text-[#646464] opacity-100 px-10 "
   style={{
     
     fontWeight: "normal",
@@ -37,20 +38,22 @@ const Servicessection = () => {
 </p>
 
       </div>
-      <div class="grid lg:grid-cols-3 items-center my-1 bg-white lg:max-w-7xl md:max-w-4xl sm:max-w-xl mx-auto p-4">
-      <div class=" lg:col-span-1 sm:col-span-2  sm:px-8">
+
+
+      <div class="grid lg:grid-cols-3 items-center my-1 bg-white lg:max-w-full md:max-w-4xl sm:max-w-xl mx-auto lg:ml-4 p-4">
+      <div class=" lg:col-span-1 sm:col-span-2  sm:px-8 xs:px-8">
       <h2 class=" lg:w-[131px] sm:w-auto lg:text-start text-center text-[#1F2933] underline font-semibold text-[24px] leading-[40px]  tracking-normal opacity-100">
-Access <br/>to <span className='text-[#FBB03B]'>services</span></h2>
-        <p class="text-[#646464] text-[13px] leading-[30px] text-start mt-3 tracking-normal">Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.</p>
+Access to <span className='text-[#FBB03B]'>services</span></h2>
+        <p class="text-[#646464] text-[4] text-[13px]  leading-[30px]  text-justify lg:text-start mt-3 tracking-normal ">Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.</p>
         <p class="text-[#646464] text-[13px] leading-[30px] text-start mt-3 tracking-normal">Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna.</p>
         <div className="flex items-center mt-4 text-[black] hover:text-[#FBB03B]">
-      <img src={layer} className="text-white mr-2 w-2 h-2 sm:w-8 sm:h-8" alt="Image" />
+      <img src={layer} className="text-white mr-2 lg:w-2 lg:h-2 sm:w-8 sm:h-8" alt="Image" />
       <span className="text-start  text-[14px] sm:text-[14px]">View All &gt;</span>
     </div>
       </div>
 
       <div class=" col-span-2 grid sm:grid-cols-3  mx-auto w-full">
-      <div class="text-start  transition-all duration-300 rounded-xl p-6 w-full">
+      <div class="text-start  transition-all duration-300 rounded-xl p-6  sm:pt-0 w-full">
          <img src={blue} className="w-14 inline-block  p-3 rounded-full"/>
          <h3 class="text-[#1F2933] text-[16px] leading-[40px] font-600  text-start">Governance</h3>
          <p class="text-[#646464] text-[13px] leading-[30px] text-start  tracking-normal">Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis.</p>
