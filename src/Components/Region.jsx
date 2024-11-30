@@ -116,14 +116,15 @@ const Region = () => {
 </div>
 
 
-            <div class="flex justify-start">
-              <button
-                type="button"
-                class="ml-4 lg:px-6 px-3 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-[#0E263E] bg-[black] hover:bg-transparent hover:text-black transition-all duration-300"
-              >
-                Find Your Region
-              </button>
-            </div>
+<div class="flex justify-center lg:justify-start sm:text-center">
+  <button
+    type="button"
+    class="ml-4 lg:px-6 px-3 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-[#0E263E] bg-[black] hover:bg-transparent hover:text-black transition-all duration-300"
+  >
+    Find Your Region
+  </button>
+</div>
+
           </div>
         </div>
       </div>

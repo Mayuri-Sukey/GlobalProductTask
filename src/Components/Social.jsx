@@ -11,9 +11,10 @@ const Social = () => {
     return (
         <div className='scroll_top'>
             
-            <div className=' bg-[#F97300] lg:p-4 sm:p-2 mb-2 text-white'>   <FiDownload  className=''/> </div>
-            <div className=' bg-[#EA5529] lg:p-4 sm:p-2 mb-2 text-white'>   <MdFeedback  className=''/> </div>
-            <div className=' bg-[#3C61F7] lg:p-4 sm:p-2  text-white'>   <MdReport  className=''/> </div>
+            <div className="bg-[#F97300] lg:p-4 xs:p-3 mb-2 text-white">
+   <FiDownload  className=''/> </div>
+            <div className=' bg-[#EA5529] p-4 xs:p-3 mb-2 text-white'>   <MdFeedback  className=''/> </div>
+            <div className=' bg-[#3C61F7] p-4  xs:p-3 text-white'>   <MdReport  className=''/> </div>
           
             
             
